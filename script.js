@@ -73,7 +73,7 @@ async function fetchWeather() {
         
         xhttpRequest.open(
             'GET',
-            `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${cityName}&days=${daysParam}`,
+            `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${cityName}&days=${daysParam}`,
             true
         )
         xhttpRequest.send();
